@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_20195238/day12/ch18/ch18_1.dart';
 
 void main() {
   runApp(ParentWidget());
