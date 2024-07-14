@@ -1,16 +1,8 @@
-# flutter_project_20195238
+# 24-1 모바일프로그래밍 수업 실습 파일
 
-mobileProgramming
+MobileProgramming with Flutter
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib - 일별 실습한 메인 Dart파일들
+pubspec.yaml - 추가한 플러그인
