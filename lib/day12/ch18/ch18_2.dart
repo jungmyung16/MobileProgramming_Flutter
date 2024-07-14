@@ -39,6 +39,11 @@ class ParentWidgetState extends State<ParentWidget> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        theme: ThemeData(
+          appBarTheme: AppBarTheme(
+            backgroundColor: Colors.blue, // AppBar의 배경 색상을 설정
+          ),
+        ),
       home: Scaffold(
         appBar: AppBar(
           title: Text('20195238 장정명'),
