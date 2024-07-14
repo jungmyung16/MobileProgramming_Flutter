@@ -16,5 +16,15 @@ class ParentWidgetState extends State<ParentWidget> {
   GlobalKey<ChildWidgetState> childKey = GlobalKey();
   int childCount = 0;
 
-  void
+  void toggleFavorite() {
+    setState(() {
+      if(favorited) {
+        favoriteCount -= 1;
+        favorited = false;
+      } else {
+        favoriteCount += 1;
+        favorited = true;
+      }
+    });
+  }
 }
